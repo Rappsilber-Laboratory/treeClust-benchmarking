@@ -1,7 +1,7 @@
 # treeClust-benchmarking
-R scripts and data for treeClust benchmarking manuscript
+R scripts for the treeClust benchmarking aspect in our manuscript "Co-regulation map of the human proteome enables identification of protein functions" by Kustatscher et al (https://www.nature.com/articles/s41587-019-0298-5).
 
-This is a brief explanation of the R scripts used for the benchmarking of the treeClust algorithm. This work is documented in more detail in our manuscript (Kustatscher, Grabowski and Rappsilber, https://www.biorxiv.org/content/10.1101/578971v1). The treeClust algorithm was developed by Buttrey & Whitaker ("treeClust: an R package for tree-based clustering dissimilarities", The R Journal, 2015). All scripts were written in Ubuntu 18.04 using R version 3.5.1 ("Feather Spray").
+This is a brief explanation of the R scripts used for the benchmarking of the treeClust algorithm. The treeClust algorithm was developed by Buttrey & Whitaker ("treeClust: an R package for tree-based clustering dissimilarities", The R Journal, 2015). All scripts were written in Ubuntu 18.04 using R version 3.5.1 ("Feather Spray").
 
 #### treeClust_bench_relationship_types.R
 This script compares treeClust and correlation measures for their ability to detect non-linear relationships. It produces figure 1 of the manuscript.
